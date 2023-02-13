@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkDotNet.CSharpObjec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkDotnet.TargetMultipleRuntimes", "BenchmarkDotnet.TargetMultipleRuntimes\BenchmarkDotnet.TargetMultipleRuntimes.csproj", "{7E02CB13-5ACB-4F53-912B-163F0464D1C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.SharedConfig", "BenchmarkDotnet.SharedConfig\Benchmarks.SharedConfig.csproj", "{CD0DAD68-7D22-453C-B264-B352D35A0B9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7E02CB13-5ACB-4F53-912B-163F0464D1C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E02CB13-5ACB-4F53-912B-163F0464D1C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E02CB13-5ACB-4F53-912B-163F0464D1C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD0DAD68-7D22-453C-B264-B352D35A0B9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD0DAD68-7D22-453C-B264-B352D35A0B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD0DAD68-7D22-453C-B264-B352D35A0B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD0DAD68-7D22-453C-B264-B352D35A0B9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,10 +1,7 @@
 ﻿using BenchmarkDotNet.Attributes;
-using BenchmarkDotNet.Columns;
-using BenchmarkDotNet.Configs;
-using BenchmarkDotNet.Reports;
 using BenchmarkDotNet.Running;
+using Benchmarks.SharedConfig;
 
-// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World! Welcome to Object Allocations in C Sharp");
 
 BenchmarkRunner.Run<ClassVsStructRecordBenchmark>();
@@ -292,13 +289,3 @@ public class BearBenchmark
     public void HibernateSuperImproved() => Thread.Sleep(2);
 }
 
-/// <summary>
-/// Style config for baseline summary style
-/// </summary>
-public class StyleConfig : ManualConfig
-{
-    public StyleConfig()
-    {
-        SummaryStyle = SummaryStyle.Default.WithRatioStyle(RatioStyle.Trend);
-    }
-}
